@@ -1,5 +1,7 @@
 <?php
-$_var=true;
-echo $_var."<br>";
-var_dump($_var);
+$nome="Claudete";
+$sobrenome = 'Maria';
+echo $nome ." ".$sobrenome."<br>";
+echo "$nome $sobrenome<br>";
+//após testar, substitua as aspas acima por simples
 ?>

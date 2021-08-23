@@ -1,5 +1,5 @@
 <?php
-$x = null;
-echo "x = ".$x."<br>";
-var_dump($x);
+$_var=true;
+echo $_var."<br>";
+var_dump($_var);
 ?>

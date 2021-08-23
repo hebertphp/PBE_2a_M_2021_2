@@ -1,6 +1,6 @@
 <?php
-$nota = 9.75;
-$preco = 100.50;
-echo "<br>nota = ".$nota;
-echo "<br>preco = ".$preco;
+$x = 1234; //número decimal
+$y = -123; //um número negativo
+echo "<br>x = ".$x;
+echo "<br>y = ".$y;
 ?>
