@@ -1,6 +1,7 @@
 <?php
-define("PI", 3.14);
-define("HOST","localhost");
-$valor = 2 * PI;
-echo HOST . " - ". $valor;
+$nota = 9.5;
+$nova_nota = (int)$nota;
+var_dump($nota);
+echo "<br>";
+var_dump($nova_nota);
 ?>
