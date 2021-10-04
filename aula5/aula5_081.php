@@ -5,10 +5,16 @@ while ($i <= 5) {
   $i++;
 }
 echo "<h1>Desafio - 1</h1>";
-$i=0; // inicialização do contador;
-while ($i <= 5) {
+$i=7; // inicialização do contador;
+while ($i <= 9) {//while ($i<10)
   echo $i . "<br> ";
   $i++;
+}
+echo "<h1>Desafio - 2</h1>";
+$i=2; // inicialização do contador;
+while ($i >= 0) {
+  echo $i . "<br> ";
+  $i--;
 }
 /*
 Perguntas:
@@ -17,7 +23,7 @@ Perguntas:
 3) Qual o contador? $i++
 4) Qual o último valor impresso? 5
 5) Qual o valor que torna a condição como falsa? 6
-Desafio - 1
+Desafio - 1 (OK)
 Saída:
 7
 8
