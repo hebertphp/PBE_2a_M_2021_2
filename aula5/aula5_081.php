@@ -24,7 +24,16 @@ Saída:
 9
 
 Desafio - 2
+Saída:
+2
+1
+0
 
 Desafio - 3
+Saída:
+3
+5
+7
+9
 */
 ?>
