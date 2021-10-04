@@ -16,6 +16,14 @@ while ($i >= 0) {
   echo $i . "<br> ";
   $i--;
 }
+echo "<h1>Desafio - 3</h1>";
+$i=3; // inicialização do contador;
+while ($i <= 9) {
+  echo $i . "<br> ";
+  // $i++;$i++;
+  // $i=$i+2;
+  $i+=2;
+}
 /*
 Perguntas:
 1) Qual o valor inicial? 0
