@@ -9,6 +9,12 @@ array(
         array("E agora?")
     ) 
 );
+/*
+123.123.123-12
+nnn.nnn.nn8-nn
+*/
+
+
 // como fazer para imprimir João[4][1] e E agora?
 echo "<br>Curso: " . $aluno[0][0] . "<br> Nome: " . $aluno[0][1] . "<br> RA: " . $aluno[0][2];
 echo "<hr>Curso: " . $aluno[1][0] . "<br> Nome: " . $aluno[1][1] . "<br> RA: " . $aluno[1][2];
