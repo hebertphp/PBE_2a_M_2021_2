@@ -9,9 +9,9 @@ $nome=array("Astrogildo","Belarmina","Pafuncia","Abelardo");
 $fruta[]="laranja";
 $fruta[]="jaca";
 $fruta[]="limão";
-$fruta[]="maracujá";
+$fruta[4]="maracujá";
 $fruta[]="caju";
 
-echo $fruta[3];
+print_r($fruta);
 
 ?>
