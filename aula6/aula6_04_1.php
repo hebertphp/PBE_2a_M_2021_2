@@ -1,11 +1,13 @@
 <?php
-
+//$aluno=array();//criando um array vazio
 
 $aluno["curso"] = "TADS";
 $aluno["nome"] = "Fulano";
 $aluno["ra"] = 123456789;
 $aluno[]="E agora?";//[0]
-$aluno=array();
+$aluno=array();//sobrepoe valor e posição vazio (apaga tudo)
+
+
 echo "<pre>";print_r($aluno);echo "</pre>";
 
 echo "<hr>Nome: ".$aluno["nome"];
