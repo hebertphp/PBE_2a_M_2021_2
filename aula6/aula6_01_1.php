@@ -12,6 +12,6 @@ $fruta[]="limão";
 $fruta[4]="maracujá";
 $fruta[]="caju";
 
-print_r($fruta);
+echo "<pre>";print_r($fruta);echo "</pre>";
 
 ?>
