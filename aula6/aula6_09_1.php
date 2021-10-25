@@ -14,11 +14,9 @@ echo "<hr>";
 
 $uf = array("SP","RJ","MG","ES","RS","SC","PB","PR","BA","DF","SE");
 foreach ($uf as $pos =>$valor){
- echo $pos . " ";
+ echo $pos . " ";//mostrará as posições ou índices do array
 }
-
-
 
 // comentário em PHP nos editores de código atalho--> [Ctrl][;] Ctrl + ;
 ?>
-<!-- comentário em HTML -->
+<!-- comentário em HTML, atalho [Ctrl][;] -->
