@@ -7,6 +7,14 @@ sort($uf);
 <head>
     <meta charset="UTF-8">
     <title>Form</title>
+    <style>
+    body{
+        background-color: whitesmoke;
+    }
+    input{
+        background-color: lightblue;
+    }
+    </style>
 </head>
 <body>
     <pre>
