@@ -16,14 +16,19 @@
 
         Selecione o sistema operacional
 
-        Windows <input type="checkbox" name="windows" value="windows">
+        Windows <input type="checkbox" name="windows" value="windows" checked>
         Linux   <input type="checkbox" name="linux" value="linux">
         MacOS   <input type="checkbox" name="macos" value="macos">
         Android <input type="checkbox" name="android" value="android">
 
-        Você está conectado na rede 4G nesse momento?$
-        Sim <input type="radio" name="" value="sim">
-        Não <input type="radio" name="" value="não">
+        Você está conectado na rede 4G nesse momento?
+        Sim <input type="radio" name="rede4g" value="sim">
+        Não <input type="radio" name="rede4g" value="não">
+
+        Selecione o UF <select name="uf">
+                        <option>SP</option>
+                        <option>RJ</option>
+                        </select>
 
             <input type="submit"> <input type="reset">
     </form>
