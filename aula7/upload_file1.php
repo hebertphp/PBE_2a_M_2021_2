@@ -1,9 +1,9 @@
 <?php
 $tipos=array("image/gif","image/jpg","image/jpeg","image/png");
-$tam_limite=200000;
+$tam_limite=2000000;
 $dir="./img/";
 if(!is_dir($dir)){
-     mkdir($dir, 0700);
+     mkdir($dir, 0700);//criação de uma pasta img
 }
 
 $arq=array(
