@@ -5,10 +5,14 @@
     <title>Form</title>
 </head>
 <body>
-    <form action="recebe.php" method="">
-        Nome <input type="text" name="nome">
-        <br>
-        <input type="submit">
+    <pre>
+    <form action="recebe.php" method="post">
+        Nome  <input type="text" name="nome">
+
+        Senha <input type="password" name="senha">
+
+              <input type="submit">
     </form>
+    </pre>
 </body>
 </html>
