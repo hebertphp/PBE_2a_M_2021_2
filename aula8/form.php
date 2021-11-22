@@ -21,8 +21,11 @@
         MacOS   <input type="checkbox" name="macos" value="macos">
         Android <input type="checkbox" name="android" value="android">
 
+        Você está conectado na rede 4G nesse momento?$
+        Sim <input type="radio" name="" value="sim">
+        Não <input type="radio" name="" value="não">
 
-                <input type="submit"> <input type="reset">
+            <input type="submit"> <input type="reset">
     </form>
     </pre>
 </body>
