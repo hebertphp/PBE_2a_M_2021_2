@@ -26,10 +26,14 @@
         Não <input type="radio" name="rede4g" value="não">
 
         Selecione o UF <select name="uf">
-                        <option>SP</option>
-                        <option>RJ</option>
+                        <option value="SP">SP</option>
+                        <option value="RJ">RJ</option>
+                        <option value="MG">MG</option>
+                        <option value="ES">ES</option>
                         </select>
 
+        Digite uma observação <textarea name="obs"></textarea>
+        
             <input type="submit"> <input type="reset">
     </form>
     </pre>
