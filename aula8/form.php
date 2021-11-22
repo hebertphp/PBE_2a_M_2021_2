@@ -1,3 +1,7 @@
+<?php
+$uf=array("SP","RJ","ES","MG","RS","SC","BA","PA","MS","TO","RO","PR","AM");
+sort($uf);
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -7,12 +11,18 @@
 <body>
     <pre>
     <form action="recebe.php" method="post" autocomplete="off">
-        Nome  <input type="text" name="nome" required autofocus>
+        Nome  <input type="text" name="nome" required autofocus placeholder="Digite o seu nome">
 
         Senha <input type="password" name="senha" required>
               <input type="hidden" name="oculto" value="Um valor">  
 
-        RA    <input type="number" name="ra" required>      
+        RA    <input type="number" name="ra" required placeholder="Digite seu RA">  
+
+        E-mail <input type="email" name="email">   
+        
+        Data   <input type="date" name="data">
+
+        Hora <input type="time" name="hora">
 
         Selecione o sistema operacional
 
@@ -26,14 +36,15 @@
         Não <input type="radio" name="rede4g" value="não">
 
         Selecione o UF <select name="uf">
-                        <option value="SP">SP</option>
-                        <option value="RJ">RJ</option>
-                        <option value="MG">MG</option>
-                        <option value="ES">ES</option>
+                        <?php
+                        foreach($uf as $pos=>$valor){
+                            echo "<option value='$valor'>$valor</option>";
+                        }
+                        ?>
                         </select>
 
         Digite uma observação <textarea name="obs"></textarea>
-        
+
             <input type="submit"> <input type="reset">
     </form>
     </pre>
