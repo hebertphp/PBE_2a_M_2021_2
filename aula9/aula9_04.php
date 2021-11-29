@@ -5,7 +5,7 @@ function imp_arr($arr){
         return null;
     }
     foreach($arr as $pos=>$valor)
-    echo $valor."<br>";
+        echo $valor."<br>";
 }
 $uf=array("SP","TO","PR");
 imp_arr($uf);
