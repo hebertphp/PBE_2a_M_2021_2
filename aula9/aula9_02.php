@@ -1,7 +1,9 @@
 <?php
 function boas_vindas() {
-echo "<h1>Seja bem vindo, ".$GLOBALS["alguem"]."!</h1>";
+    $quem=isset($GLOBALS["alguem"])?$GLOBALS["alguem"]:"você mesmo";
+    echo "<h1>Seja bem vindo(a), $quem!</h1>";
 }
-$alguem="Roberta";
+// $alguem="Roberta";
+
 boas_vindas();
 ?>
