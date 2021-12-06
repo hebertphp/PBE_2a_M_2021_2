@@ -7,5 +7,5 @@ function total(...$num) {
     }
     return $soma;
 }
-echo total(11.9,7.5,2.9,"teste");
+echo total("teste",5,7);
 ?>
