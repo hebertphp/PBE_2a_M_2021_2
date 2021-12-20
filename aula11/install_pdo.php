@@ -1,8 +1,8 @@
 <?php
-include "con_pdo.php";
+include "con_pdo.php";//$conn
 try {
     $sql="
-    create table usuario(
+    create table usuario1(
     id int not null primary key auto_increment,
     login varchar(30) not null,
     senha varchar(255) not null,

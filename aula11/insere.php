@@ -1,5 +1,5 @@
 <?php
-include "conecta.php";
+include "conecta.php";//$conn
 $sql="
 insert into usuario values (null, 'hba1',md5('123456'),'hba1@test.com',now(),'Funcionou?')
 ";

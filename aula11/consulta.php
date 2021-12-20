@@ -1,5 +1,5 @@
 <?php
-include "conecta.php";
+include "conecta.php";//$conn
 $sql="select login, email, data from usuario";
 $result = mysqli_query($conn,$sql) or die (mysqli_error($conn));
 
