@@ -40,7 +40,15 @@ $sql="select id, login, email, DATE_FORMAT(data,'%d/%m/%Y') as data from usuario
 $result = mysqli_query($conn,$sql) or die (mysqli_error($conn));
 
 while($row=  mysqli_fetch_array($result, MYSQLI_ASSOC)){
-    echo $row["id"]." - ".$row["login"]." - ".$row["email"]." - ".$row["data"]."<br>";
+    // echo $row["id"]." - ".$row["login"]." - ".$row["email"]." - ".$row["data"]."<br>";
+?>
+        <tr>
+            <td>1</td>
+            <td>admin</td>
+            <td>teste@teste.com</td>
+            <td>13/12/2021</td>
+        </tr> 
+<?php
 }
 mysqli_free_result($result);
 
