@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Relatório</title>
     <style>
+        :root{
+            --cor:240;
+        }
         table, td, th{
             border: 2px solid blue;
             border-collapse:collapse;
@@ -16,11 +19,11 @@
             margin: 0 auto;
         }
         tr:nth-child(odd) {
-            background: darkblue;
-            color:white
+            background: hsl(var(--cor),100%,40%);
+            color:white;
         }
         tr:nth-child(even) {
-            background: lightblue;
+            background: hsl(var(--cor),100%,90%);
         }
     </style>
 </head>
