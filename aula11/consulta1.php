@@ -43,10 +43,10 @@ while($row=  mysqli_fetch_array($result, MYSQLI_ASSOC)){
     // echo $row["id"]." - ".$row["login"]." - ".$row["email"]." - ".$row["data"]."<br>";
 ?>
         <tr>
-            <td>1</td>
-            <td>admin</td>
-            <td>teste@teste.com</td>
-            <td>13/12/2021</td>
+            <td><?php echo $row["id"]; ?></td>
+            <td><?php echo $row["login"]; ?></td>
+            <td><?php echo $row["email"]; ?></td>
+            <td><?php echo $row["data"]; ?></td>
         </tr> 
 <?php
 }
