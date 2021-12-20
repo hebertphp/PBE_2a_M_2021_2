@@ -15,6 +15,13 @@
             width: 400px;
             margin: 0 auto;
         }
+        tr:nth-child(odd) {
+            background: darkblue;
+            color:white
+        }
+        tr:nth-child(even) {
+            background: lightblue;
+        }
     </style>
 </head>
 <body>
@@ -26,17 +33,19 @@
             <th>Login</th>
             <th>E-mail</th>
             <th>Data</th>
+            <th>Obs</th>
         </tr>  
+        <!--
         <tr>
             <td>1</td>
             <td>admin</td>
             <td>teste@teste.com</td>
             <td>13/12/2021</td>
-        </tr>      
+        </tr>   
+        -->   
 <?php
 include "conecta.php";//$conn
-// echo "<br>";
-$sql="select id, login, email, DATE_FORMAT(data,'%d/%m/%Y') as data from usuario";
+$sql="select id, login, email, DATE_FORMAT(data,'%d/%m/%Y') as data,obs from usuario";
 $result = mysqli_query($conn,$sql) or die (mysqli_error($conn));
 
 while($row=  mysqli_fetch_array($result, MYSQLI_ASSOC)){
@@ -47,6 +56,7 @@ while($row=  mysqli_fetch_array($result, MYSQLI_ASSOC)){
             <td><?php echo $row["login"]; ?></td>
             <td><?php echo $row["email"]; ?></td>
             <td><?php echo $row["data"]; ?></td>
+            <td><?php echo $row["obs"]; ?></td>
         </tr> 
 <?php
 }
